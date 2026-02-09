@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Akshay Sain | Full Stack Developer</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-code"></i> Akshay Sain
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== PAGE HEADER ===== -->
+    <section class="page-header">
+        <div class="container">
+            <h1 data-aos="fade-down">Latest Articles</h1>
+            <p data-aos="fade-up">Insights, tips, and stories from my journey in tech</p>
+        </div>
+    </section>
+
+    <!-- ===== BLOG POSTS ===== -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Blog Post 1 -->
+                <div class="col-md-4" data-aos="fade-up">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="blog-category">
+                                <span class="category-badge">Web Development</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="date"><i class="fas fa-calendar"></i> Mar 15, 2024</span>
+                                <span class="read-time"><i class="fas fa-clock"></i> 5 min read</span>
+                            </div>
+                            <h3 class="blog-title">Building Scalable React Applications</h3>
+                            <p class="blog-excerpt">Learn best practices for structuring large React applications, managing state effectively, and optimizing performance for production environments.</p>
+                            <div class="blog-footer">
+                                <div class="author">
+                                    <div class="author-avatar">JD</div>
+                                    <div class="author-info">
+                                        <p class="author-name">Akshay Sain</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="blog-category">
+                                <span class="category-badge">Backend</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="date"><i class="fas fa-calendar"></i> Mar 10, 2024</span>
+                                <span class="read-time"><i class="fas fa-clock"></i> 7 min read</span>
+                            </div>
+                            <h3 class="blog-title">Microservices Architecture: When and Why</h3>
+                            <p class="blog-excerpt">A comprehensive guide to understanding microservices, their benefits, challenges, and how to implement them effectively in your projects.</p>
+                            <div class="blog-footer">
+                                <div class="author">
+                                    <div class="author-avatar">JD</div>
+                                    <div class="author-info">
+                                        <p class="author-name">Akshay Sain</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="blog-category">
+                                <span class="category-badge">Mobile</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="date"><i class="fas fa-calendar"></i> Mar 5, 2024</span>
+                                <span class="read-time"><i class="fas fa-clock"></i> 6 min read</span>
+                            </div>
+                            <h3 class="blog-title">React Native vs Flutter: A Detailed Comparison</h3>
+                            <p class="blog-excerpt">Compare two popular cross-platform mobile development frameworks. Understand their strengths, weaknesses, and use cases.</p>
+                            <div class="blog-footer">
+                                <div class="author">
+                                    <div class="author-avatar">JD</div>
+                                    <div class="author-info">
+                                        <p class="author-name">Akshay Sain</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class="col-md-4" data-aos="fade-up">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #fa709a, #fee140);">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="blog-category">
+                                <span class="category-badge">Security</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="date"><i class="fas fa-calendar"></i> Feb 28, 2024</span>
+                                <span class="read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                            </div>
+                            <h3 class="blog-title">Web Security Best Practices 2024</h3>
+                            <p class="blog-excerpt">Essential security measures every web developer should implement. Protect your applications from common vulnerabilities and attacks.</p>
+                            <div class="blog-footer">
+                                <div class="author">
+                                    <div class="author-avatar">JD</div>
+                                    <div class="author-info">
+                                        <p class="author-name">Akshay Sain</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Blog Post 5 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #30cfd0, #330867);">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="blog-category">
+                                <span class="category-badge">DevOps</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="date"><i class="fas fa-calendar"></i> Feb 20, 2024</span>
+                                <span class="read-time"><i class="fas fa-clock"></i> 6 min read</span>
+                            </div>
+                            <h3 class="blog-title">CI/CD Pipelines with Docker & Kubernetes</h3>
+                            <p class="blog-excerpt">Master continuous integration and deployment. Build automated pipelines that streamline your development workflow and improve code quality.</p>
+                            <div class="blog-footer">
+                                <div class="author">
+                                    <div class="author-avatar">JD</div>
+                                    <div class="author-info">
+                                        <p class="author-name">Akshay Sain</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Blog Post 6 -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <div class="image-placeholder" style="background: linear-gradient(135deg, #a8edea, #fed6e3);">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="blog-category">
+                                <span class="category-badge">Design</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-meta">
+                                <span class="date"><i class="fas fa-calendar"></i> Feb 15, 2024</span>
+                                <span class="read-time"><i class="fas fa-clock"></i> 5 min read</span>
+                            </div>
+                            <h3 class="blog-title">Creating Inclusive Design Systems</h3>
+                            <p class="blog-excerpt">Design systems that work for everyone. Learn how to create accessible, scalable design systems that improve user experience.</p>
+                            <div class="blog-footer">
+                                <div class="author">
+                                    <div class="author-avatar">JD</div>
+                                    <div class="author-info">
+                                        <p class="author-name">Akshay Sain</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <nav class="pagination-nav" data-aos="fade-up">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <span class="page-link"><i class="fas fa-chevron-left"></i></span>
+                    </li>
+                    <li class="page-item active"><span class="page-link">1</span></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- ===== NEWSLETTER SECTION ===== -->
+    <section class="newsletter-section">
+        <div class="container" data-aos="fade-up">
+            <h2>Subscribe to My Newsletter</h2>
+            <p>Get the latest articles and updates delivered to your inbox</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-md-4" data-aos="fade-up">
+                    <h5>Akshay Sain</h5>
+                    <p>Full Stack Developer & Creative Technologist</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <h5>Follow Me</h5>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2); margin: 30px 0;">
+            <p class="text-center">&copy; 2024 Akshay Sain. All rights reserved. | Crafted with <i class="fas fa-heart" style="color: #ec4899;"></i> by Akshay Sain</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
